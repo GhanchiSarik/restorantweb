@@ -8,7 +8,27 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
 </head>
-<body class="reservation-page">
+<body >
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                🍽️ Restaurant
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="reservation.html">Reservation</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="reservation-page">
     <div class="container mt-5">
         <div class="reservation-box">
             <h2 class="text-center">Reserve Your Table</h2>
@@ -28,6 +48,8 @@
             </div>
         </div>
     </div>
+    </div>
+
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="reservation.js"></script>
